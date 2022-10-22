@@ -128,7 +128,8 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
-  font-size: smaller;
+  width: 600px;
+  font-size: x-small;
 }
 .red5 { 
   width: 100%; 
