@@ -1,0 +1,15 @@
+.para {
+    font-size:18px;
+    font-family: "Roboto";
+    letter-spacing: -1px;
+}
+h2 {
+    font-size: 40px;
+    font-family: 'PT+Serif', serif;
+    letter-spacing: -1px;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'PT+Serif', serif;
+    letter-spacing: -1px
+}
