@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap');
 
 /* Classes */
+.answer {
+    text-align: center;
+    justify-content: center;
+}
 .book, .join {
     background-color: #FFD60A;
     color:#000814;
@@ -38,7 +42,27 @@
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
-    
+.faq-background {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.faq-content {
+    font-family: "Roboto", Helvetica, sans-serif;
+    justify-content: center;
+    max-width: 66%;
+    margin: 50px 17%;
+    background-color: #FFD60A;
+}
+
+.faq-title {
+    color: #003566;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -85,6 +109,10 @@
     color: white;
     font-size: .8em;
     padding-bottom: 15px;
+}
+.question {
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .rapids-card {
