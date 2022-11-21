@@ -15,6 +15,10 @@ h1 {
     letter-spacing: -1px
 }
 
+.startButton {
+    display: block;
+}
+
 @font-face {
 	font-family: Cyber;
 	src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
