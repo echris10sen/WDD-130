@@ -17,6 +17,7 @@ h1 {
 
 .start {
 	margin-right: 5px;
+	display: inline;
 }
 
 .startButton {
