@@ -10,57 +10,66 @@
 </head>
 <body>
     <header>
-        <a href="./coup_home.html" id="logo_link">
-            <img src="../images/Coup Logo.jpg" alt="Coup Logo">
-        </a>
-        <nav>
-            <a href="./coup_board.html">Play</a>
-            <a href="./coup_intructions.html">Instructions</a>
+        <nav id="header">
+            <a href="./coup_home.html" class="grid_item" id="logo_link">
+                <img src="../images/Coup Logo.jpg" alt="Coup Logo">
+            </a>
+            <a href="./coup_board.html" class="grid_item" id="nav_play">
+                <button class="cyber-button">
+                    Play
+                </button>
+            </a>
+            <a href="./coup_intructions.html" class="grid_item" id="nav_instruct">
+                <button class="cyber-button">
+                    Instructions
+                </button>
+            </a>
         </nav>
     </header>
-    <div>
-        <h1>Welcome to Coup!</h1>
-    </div>
-    <main>
-        <p class="para">
-            In the not too distant future, the government is run for profit by a new "royal class" of multinational CEOs.
-            <br>
-            Their greed and absolute control of the economy has reduced all but a privileged few to lives of poverty and desperation.
-            <br>
-            Out of the oppressed masses rose The Resistance, an underground organization focused on overthrowing these powerful rulers. The valiant efforts of
-            <br>
-            The Resistance have created discord, intrigue, and weakness in the political courts of the noveau royal, bringing the government to brink of collapse.
-            <br>
-            But for you, a powerful government official, this is your opportunity to manipulate, bribe and bluff your way into absolute power.
-            <br>
-            To be successful, you must destroy the influence of your rivals and drive them into exile.
-            <br>
-            In these turbulent times there is only room for one to survive.</p>
-    </main>
-    <div class="home">
-        <h2 class="coup">Would you like to start?</h5>
-        <div class="start">
-            <a href="./coup_board.html">
+    <img class="background_img" src="../images/coup background.jpg">
+    <div class="content">
+        <div class="main_grid_item">
+            <h1>Welcome to Coup!</h1>
+        </div>
+        <main class="main_grid_item">
+            <p class="para">
+                In the not too distant future, the government is run for profit by a new "royal class" of multinational CEOs.
+                <br>
+                Their greed and absolute control of the economy has reduced all but a privileged few to lives of poverty and desperation.
+                <br>
+                Out of the oppressed masses rose The Resistance, an underground organization focused on overthrowing these powerful rulers. The valiant efforts of
+                <br>
+                The Resistance have created discord, intrigue, and weakness in the political courts of the noveau royal, bringing the government to brink of collapse.
+                <br>
+                But for you, a powerful government official, this is your opportunity to manipulate, bribe and bluff your way into absolute power.
+                <br>
+                To be successful, you must destroy the influence of your rivals and drive them into exile.
+                <br>
+                In these turbulent times there is only room for one to survive.</p>
+        </main>
+        <div class="home">
+            <h2 class="coup">Would you like to start?</h5>
+            <a href="./coup_board.html" class="grid_start_button">
                 <button class="start cyber-button">
                     Yes<span aria-hidden>_</span>
                     <span aria-hidden class="cybr-btn__glitch">Help Me_</span>
                     <span aria-hidden class="cybr-btn__tag">G54</span>
                 </button>
             </a>
+            <a href="./coup_intructions.html" class="grid_instruct_button">
+                <button class="instructions cyber-button">
+                    Instructions<span aria-hidden>_</span>
+                    <span aria-hidden class="cybr-btn__glitch">Instructions_</span>
+                    <span aria-hidden class="cybr-btn__tag">G54</span>
+                </button>
+            </a>
         </div>
-        <a href="./coup_intructions.html">
-            <button class="instructions cyber-button">
-                Instructions<span aria-hidden>_</span>
-                <span aria-hidden class="cybr-btn__glitch">Instructions_</span>
-                <span aria-hidden class="cybr-btn__tag">G54</span>
-            </button>
-        </a>
     </div>
     <footer>
         <p>Coup is made by Indie Boards & Cards</p>
         <p>This applet is made by Eric Christensen</p>
         <p>20XX</p>
-        <a href="../html/site-plan.html">Site-Plan</a>
+        <a href="../html/site-plan.html" class="nav-link">Site-Plan</a>
     </footer>
 </body>
 </html>
