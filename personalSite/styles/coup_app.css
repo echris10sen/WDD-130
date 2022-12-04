@@ -95,6 +95,15 @@ footer {
     display: block;
 }
 
+#instruct_button {
+	z-index: 1;
+}
+
+#fixed {
+	position: sticky;
+	top: 0;
+}
+
 #header {
 	background-color: #D1AE94;
 	display: grid;
@@ -103,6 +112,10 @@ footer {
 	padding: 30px;
 	vertical-align: middle;
 	z-index: -1;
+}
+
+#instructions {
+	grid-template-rows: repeat(1, 1fr);
 }
 
 #logo_link {
@@ -114,11 +127,15 @@ footer {
 #nav_instruct {
 	grid-column: 4;
 	grid-row: 2;
+	z-index: 1;
+	background-color: #516178;
 }
 
 #nav_play {
 	grid-column: 3;
 	grid-row: 2;
+	z-index: 1;
+	background-color: #516178;
 }
 
 @font-face {
