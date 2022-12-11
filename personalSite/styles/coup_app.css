@@ -19,6 +19,11 @@ footer {
 	z-index: -1;
 }
 
+.center_button {
+	margin-top: 10px;
+	margin-left: 30%;
+}
+
 .content {
 	margin-top: -500px;
 	margin-left: 25%;
@@ -31,6 +36,16 @@ footer {
 .coup {
 	text-align: center;
 	grid-column: 1/3;
+}
+
+.gameboard {
+	position: relative;
+	margin-top: -600px;
+	margin-left: 33%;
+	margin-right: 33%;
+	background-color: black;
+	color: white;
+	min-height: 500px;
 }
 
 .grid_start_button {
@@ -93,6 +108,7 @@ footer {
 
 .startButton {
     display: block;
+	margin-left: 40%;
 }
 
 #instruct_button {
